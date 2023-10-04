@@ -1,5 +1,5 @@
 
-@media screen and (max-width:590px){
+@media screen and (max-width:600px){
     #main-img{
         background-image:linear-gradient(rgba(0,0,0,0.8)0,rgba(0,0,0,0.3)60%,rgba(0,0,0,1)100%) ,url('netfliximg.jpg');
         background-size: cover;
