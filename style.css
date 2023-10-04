@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main-img{
+    background-image:linear-gradient(rgba(0,0,0,0.9)0,rgba(0,0,0,0.3)60%,rgba(0,0,0,1.8)100%) ,url('netfliximg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+}
+#netflixlg{
+    width: 12vw;
+    margin: 1.2vw 0 0 10vw;
+}
+#selector{
+    width: 18vh;
+    height: 4.5vh;
+    background: transparent;
+    color: white;
+    font-size: 4rem;
+    border-radius: 0.3vw;
+    border: 1px solid grey;
+}
+#selector2{
+    width: 7.3vh;
+    height: 3.8vh;
+    background: transparent;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 1vw;
+    border: 1px solid grey;
+    display: none;
+}
+#btn{
+    width: 10vh;
+    height: 4.5vh;
+    background-color: rgb(187, 4, 4);
+    border: none;
+    border-radius: 0.6vh;
+    margin-right: 1vh;
+    font-size: 2vh;
+    color: white;
+    font-weight: 500;
+}
+#hd2{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+    
+#hd2text1{
+    font-size: 3.4vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-top: 27vh;
+    font-weight: bolder;
+}
+#hd2text2{
+    font-size: 3.4vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    justify-self: center;
+}
+#hd2text3{
+    font-size: 1.6vw;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    padding-top: 2.5vh;
+}
+#hd2text4{
+    font-size: 1.2vw;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    padding-top: 4vh;
+}
+#inp{
+    width: 25vw;
+    height: 8vh;
+    margin-top: 1.4vh;
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65));
+    color: rgb(250, 248, 248);
+    font-size: 3.9rem;
+    border-radius: 1vh;
+    border: 1px solid grey;
+}
+#btn2{
+    width: 13vw;
+    height: 8vh;
+    margin-top: 1.4vh;
+    margin-left: 1vh;
+    background-color: rgb(187, 4, 4);
+    border: none;
+    border-radius: 1vh;
+    font-size: 5rem;
+    color: white;
+    font-weight: 600;
+}
+.text1{
+    display: none;
+}
+#hd2text21{
+    display: none;
+}
+#hr1{
+    width: 100%;
+    height: 27px;
+    background-color: rgb(45, 43, 43);
+    border: 0px solid black;
+}
+#m11agrid1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#m11agrid2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#main11a-t1{
+    display: none;
+}
+#main11a-t2{
+    display: none;
+}
+#main11a-t1rgid{
+    font-size: 3.4vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+#main11a-t2grid{
+    font-size: 1.6vw;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    padding-top: 2.5vh;
+}
+#tvimg-grid{
+    width: 85%;
+    padding-bottom: 2vh;
+}
+#main22a{
+    width: 90%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+#main22{
+    background-color: black;
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#m22a-grid1{
+    display: flex;
+    justify-content: center;
+}
+#m22a-grid2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 7vh 0;
+}
+#strthg-grid{
+    width: 45vw;
+    height: 60vh;
+    padding: 0 0 0 6vw ;
+}
+    
+#hd2text21{
+    font-size: 9vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    justify-self: center;
+}
+#hd2text11{
+    font-size: 9vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    justify-self: center;
+}
+#main11{
+    background-color: black;
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main11a{
+    width: 90%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+#tvimg{
+    display: none;
+    width: 80%;
+    margin-top: 3.5vh;
+}
+#strthg{
+    display: none;
+}
+
+
+
+
