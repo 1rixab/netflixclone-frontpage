@@ -236,6 +236,30 @@ html,body{
 #strthg{
     display: none;
 }
+#main33{
+    width: 100%;
+    height: 82vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main22ax{
+    width: 75%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 50% 44%;
+    grid-template-rows: 100%;
+}
+#main44{
+    width: 100%;
+    height: 82vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
