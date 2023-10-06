@@ -259,6 +259,36 @@ html,body{
     align-items: center;
     justify-content: center;
 }
+#main55{
+    width: 100%;
+    height: 132.5vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.m55agrid{
+    margin-top: 10vh;
+}
+#m55c{
+    height: 61%;
+    width: 77%;
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 12vh 12vh 12vh 12vh 12vh 12vh;
+    row-gap: 1.5vh;
+}
+.m55cgr{
+    background-color: rgb(47, 46, 46);
+}
+.m55dgrid{
+    margin-top: 3vh;
+    font-size: 0.1vw;
+}
+.m55inpbut{
+    display: none;
+}
 
 
 
