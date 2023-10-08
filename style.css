@@ -289,6 +289,53 @@ html,body{
 .m55inpbut{
     display: none;
 }
+.m55cgr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.5vh 0 3.5vh;
+}
+#main11a-t2grid-2{
+    font-size: 1.6vw;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.fa{
+    font-size: 8rem;
+}
+#foot66{
+    width: 100%;
+    height: 57vh;
+    background-color: black;
+    padding: 9.5vh 0 0 24.5vh;
+    
+}
+#ft-text1{
+    font-size: 1vw;
+    font-family: Arial, sans-serif;
+    color: rgb(158, 158, 158);
+    font-weight: lighter;
+    padding-bottom: 1.5vh;
+
+}
+#ft-2{
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw;
+    grid-template-rows: 35vh;
+    column-gap: 3vh;
+}
+.ft-text2{
+    font-size: 1vw;
+    font-family: Arial, sans-serif;
+    color: rgb(158, 158, 158);
+    font-weight: lighter;
+    padding: 2.5vh 0 0 0;
+}
+.ft-2a{
+    display: none;
+}
+
 
 
 

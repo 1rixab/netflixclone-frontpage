@@ -58,7 +58,7 @@
         font-size: 5vw;
         font-family: Arial, sans-serif;
         color: rgb(227, 227, 227);
-        /* font-weight: bold; */
+        font-weight: bold;
         padding-top: 2.1vh;
     }
     #hd2text4{
@@ -225,7 +225,47 @@
     .m55inpbut-lap{
         display: none;
     }
-    
+    .m55cgr{
+        padding: 0 2vh 0 2vh ;
+    }
+    #main11a-t2grid-2{
+        display: none;
+    }
+    .fa-solid fa-plu {
+        font-size: 1vh;
+    }
+    .fa{
+        font-size: 2rem;
+    }
+    #foot66{
+        width: 100%;
+        height: 61vh;
+        padding: 3vh 0 0 3vh;
+    }
+    #ft-text1{    
+        font-size: 4.5vw;
+        font-weight: bold;
+        padding-bottom: 2vh;
+        
+    }
+    #ft-2{
+        grid-template-columns: 43vw 42vw;
+        grid-template-rows: 55vh;
+        column-gap: 1vh;
+    }
+    .ft-text2{    
+        font-size: 3.7vw;
+        font-weight: bold;
+        padding: 2.5vh 0 0 0;
+        
+    }
+    .ft-2a{
+        display: block;
+    }
+    .ft-2agrid{
+        display: none;
+    }
+
 }
 
 
