@@ -12,7 +12,7 @@ html,body{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: 43rem;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -24,24 +24,24 @@ html,body{
     justify-content: space-between;
 }
 #netflixlg{
-    width: 12vw;
-    margin: 1.2vw 0 0 10vw;
+    width: 12rem;
+    margin: 1.2rem 0 0 10rem;
 }
 #navsec{
-    width: 15vw;
-    height: 7.5vh;
-    margin-right: 11vw;
+    width: 15rem;
+    height: 3.5rem;
+    margin-right: 11rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 #selector{
-    width: 18vh;
-    height: 4.6vh;
+    width: 8rem;
+    height: 2rem;
     background: transparent;
     color: white;
-    font-size: 2.5vh;
-    border-radius: 0.3vw;
+    font-size: 1rem;
+    border-radius: 0.3rem;
     border: 1px solid grey;
 }
 #selector2{
@@ -55,13 +55,13 @@ html,body{
     display: none;
 }
 #btn{
-    width: 11vh;
-    height: 4.6vh;
+    width: 5rem;
+    height: 2rem;
     background-color: rgb(187, 4, 4);
     border: none;
-    border-radius: 0.6vh;
-    margin-right: 1vh;
-    font-size: 2vh;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+    font-size: 1rem;
     color: white;
     font-weight: 500;
 }
@@ -74,52 +74,52 @@ html,body{
 }
     
 #hd2text1{
-    font-size: 3.4vw;
+    font-size: 3.1rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    padding-top: 27vh;
+    padding-top: 10rem;
     font-weight: bolder;
 }
 #hd2text2{
-    font-size: 3.4vw;
+    font-size: 3.1rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-weight: bolder;
     justify-self: center;
 }
 #hd2text3{
-    font-size: 1.6vw;
+    font-size: 1.2rem;
     font-family: Arial, sans-serif;
     color: white;
     font-weight: lighter;
-    padding-top: 2.5vh;
+    padding-top: 1.3rem;
 }
 #hd2text4{
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     font-family: Arial, sans-serif;
     color: white;
     font-weight: lighter;
-    padding-top: 4vh;
+    padding-top: 2rem;
 }
 #inp{
-    width: 25vw;
-    height: 8vh;
-    margin-top: 1.4vh;
+    width: 25rem;
+    height: 3.5rem;
+    margin-top: 0.7rem;
     background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65));
     color: rgb(250, 248, 248);
-    font-size: 4vh;
-    border-radius: 1vh;
+    font-size: 2rem;
+    border-radius: 0.4rem;
     border: 1px solid grey;
 }
 #btn2{
-    width: 13vw;
-    height: 8vh;
-    margin-top: 1.4vh;
-    margin-left: 1vh;
+    width: 13rem;
+    height: 3.5rem;
+    margin-top: 0.6rem;
+    margin-left: 0.7rem;
     background-color: rgb(187, 4, 4);
     border: none;
-    border-radius: 1vh;
-    font-size: 3.5vh;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
     color: white;
     font-weight: 600;
 }
@@ -131,7 +131,7 @@ html,body{
 }
 .hr1{
     width: 100%;
-    height: 27px;
+    height: 1.5rem;
     background-color: rgb(45, 43, 43);
     border: 1px solid black;
 }
@@ -312,25 +312,25 @@ html,body{
     
 }
 #ft-text1{
-    font-size: 1vw;
+    font-size: 1rem;
     font-family: Arial, sans-serif;
     color: rgb(158, 158, 158);
     font-weight: lighter;
-    padding-bottom: 1.5vh;
+    padding-bottom: 1rem;
 
 }
 #ft-2{
     display: grid;
-    grid-template-columns: 18vw 18vw 18vw 18vw;
-    grid-template-rows: 35vh;
-    column-gap: 3vh;
+    grid-template-columns: 14rem 14rem 14rem 14rem;
+    grid-template-rows: 25rem;
+    column-gap: 2rem;
 }
 .ft-text2{
-    font-size: 1vw;
+    font-size: 0.9rem;
     font-family: Arial, sans-serif;
     color: rgb(158, 158, 158);
     font-weight: lighter;
-    padding: 2.5vh 0 0 0;
+    padding: 1rem 0 0 0;
 }
 .ft-2a{
     display: none;
